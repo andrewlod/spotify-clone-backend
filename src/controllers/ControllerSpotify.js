@@ -1,6 +1,5 @@
 const axios = require("axios")
 const { API_IP } = process.env
-const spotifyApi = require("../connectors/ConnectorSpotify")
 
 class ControllerSpotify {
     constructor() {
